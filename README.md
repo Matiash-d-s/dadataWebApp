@@ -10,6 +10,7 @@ docker compose up -d java_app
 <br />
 Collection Postman 
 <br />
+https://disk.yandex.ru/d/K_OdBZY70PTcHw
 <br />
 <br />
 Видео с разбором:
