@@ -1,0 +1,24 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>```\r\nmvn clean package -DskipTests\r\n```\r\n\r\n```\r\ndocker compose up -d java_db\r\n```\r\n\r\n```\r\ndocker compose up -d java_app\r\n```\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision a6627e0446512b3c92b2adeee859a32779542163)
++++ b/README.md	(date 1703272157567)
+@@ -1,11 +1,8 @@
+-```
+-mvn clean package -DskipTests
+-```
+-
++RESTful API приложение с базой данных Postgresql
++Для того чтобы развернуть прилложение необходимо выполнить эти две команды:
+ ```
+ docker compose up -d java_db
+ ```
+-
+ ```
+ docker compose up -d java_app
+ ```

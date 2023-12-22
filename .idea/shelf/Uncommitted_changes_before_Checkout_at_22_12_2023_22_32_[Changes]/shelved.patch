@@ -1,0 +1,21 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># dadataWebApp
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision ffbda299722214ebfd8bfebc1f284c7654249b14)
++++ b/README.md	(date 1703273513668)
+@@ -1,1 +1,8 @@
+-# dadataWebApp
+\ No newline at end of file
++RESTful API приложение с базой данных Postgresql
++Для того чтобы развернуть прилложение необходимо выполнить эти две команды:
++```
++docker compose up -d java_db
++```
++```
++docker compose up -d java_app
++```
