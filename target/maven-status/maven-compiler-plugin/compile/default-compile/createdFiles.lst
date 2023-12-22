@@ -1,0 +1,12 @@
+org\example\dadata\DadataRequest.class
+org\example\user\User.class
+org\example\dadata\FeignConfiguration.class
+org\example\user\UserController.class
+org\example\dadata\DadataController.class
+org\example\dadata\DadataFeignClient.class
+org\example\Main.class
+org\example\dadata\Info.class
+org\example\dadata\DadataResponse.class
+org\example\user\UserRepository.class
+org\example\dadata\DadataResponse$Suggestion.class
+org\example\dadata\FeignConfiguration$1.class
