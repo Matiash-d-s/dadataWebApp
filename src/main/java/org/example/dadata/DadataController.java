@@ -1,14 +1,13 @@
 package org.example.dadata;
 
 import lombok.RequiredArgsConstructor;
-import org.example.user.User;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/dadata")
+@RequestMapping("/dev/api/dadata")
 @RequiredArgsConstructor
 public class DadataController {
 
